@@ -1,18 +1,11 @@
 package br.com.cursoRest.Post;
 
+import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-import java.util.ArrayList;
-
-import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
-import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.response.ValidatableResponse;
-
-import static io.restassured.RestAssured.*;
 
 public class VerbosTest {
 

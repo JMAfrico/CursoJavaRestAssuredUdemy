@@ -105,7 +105,8 @@ public class VerbosTestSerializacaoDeserializacao {
 	public void deveSalvarUsuarioDeserializarXMLUsandoObjeto() {	
 		User user = new User("Usuario deserializadoXML",30);
 		
-		User usuarioInserido = given()
+		User usuarioInserido = 
+		given()
 			.log().all()
 			.contentType(ContentType.XML)
 			.body(user)
